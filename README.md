@@ -1,7 +1,4 @@
 <!-- markdownlint-disable MD033 -->
-<!-- markdownlint-disable MD041 -->
-
-![Maxime Gélinas](https://raw.githubusercontent.com/maximegelinas/maximegelinas/master/assets/header.png 'Maxime Gélinas')
 
 # Hi there! <img src="https://raw.githubusercontent.com/maximegelinas/maximegelinas/master/assets/wave.gif" width="30px">
 
