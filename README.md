@@ -2,7 +2,7 @@
 
 # Hi there! <img src="https://raw.githubusercontent.com/maximegelinas/maximegelinas/master/assets/wave.gif" width="30px">
 
-My name is **Maxime Gélinas** and I'm a senior developer from Canada. You can find me on:
+My name is **Maxime Gélinas** and I'm a senior software developer from Canada. You can find me on:
 
 [![Twitter](https://img.shields.io/badge/Twitter-informational?style=flat-square&logo=twitter&logoColor=white&color=364E5D)](https://twitter.com/maximegel)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-informational?style=flat-square&logo=linkedin&logoColor=white&color=364E5D)](https://linkedin.com/in/maximegel)
