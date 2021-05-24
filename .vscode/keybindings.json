@@ -1,0 +1,171 @@
+[
+  // # Editor
+  // Rename Symbol
+  {
+    // `Ctrl` + `R`
+    "key": "ctrl+r",
+    "command": "editor.action.rename",
+    "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "",
+    "command": "-editor.action.rename",
+    "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+  },
+  // Toggle Line Comment
+  {
+    // `Ctrl` + `/`
+    "key": "ctrl+oem_7",
+    "command": "editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "",
+    "command": "-editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  // # Explorer
+  // File: Delete File
+  {
+    // `D`
+    "key": "d",
+    "command": "deleteFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  },
+  // File: New File
+  {
+    // `N`
+    "key": "n",
+    "command": "explorer.newFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  },
+  // File: New Folder
+  {
+    // `Shift` + `N`
+    "key": "shift+n",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  },
+  // File: Rename File
+  {
+    // `R`
+    "key": "r",
+    "command": "renameFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  },
+  // # Workbenck
+  // File: Save All Files
+  {
+    // `Ctrl` + `Shift` + `S`
+    "key": "ctrl+shift+s",
+    "command": "workbench.action.files.saveFiles"
+  },
+  // File: Reveal Active File in Side Bar
+  {
+    // `Ctrl` + `Shift` + `E`
+    "key": "ctrl+shift+e",
+    "command": "workbench.files.action.showActiveFileInExplorer",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "",
+    "command": "-workbench.files.action.showActiveFileInExplorer",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  // Terminal: Create New Integrated Terminal
+  {
+    // `Ctrl` + `T`
+    "key": "ctrl+t",
+    "command": "workbench.action.terminal.new",
+    "when": "terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "",
+    "command": "-workbench.action.terminal.new",
+    "when": "terminalProcessSupported"
+  },
+  // Terminal: Focus Next Terminal
+  {
+    // `Ctrl` + `Tab`
+    "key": "ctrl+tab",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "",
+    "command": "-workbench.action.terminal.focusNext",
+    "when": "terminalFocus && terminalProcessSupported"
+  },
+  // Terminal: Focus Previous Terminal
+  {
+    // `Ctrl` + `Shift` + `Tab`
+    "key": "ctrl+shift+tab",
+    "command": "workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "",
+    "command": "-workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus && terminalProcessSupported"
+  },
+  // Terminal: Kill the Active Terminal Instance
+  {
+    // `Ctrl` + `W`
+    "key": "ctrl+w",
+    "command": "workbench.action.terminal.kill",
+    "when": "terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "",
+    "command": "-workbench.action.terminal.kill",
+    "when": "terminalFocus && terminalProcessSupported"
+  },
+  // Terminal: Split Terminal
+  {
+    // `Ctrl` + `Shift` + `/`
+    "key": "ctrl+shift+oem_7",
+    "command": "workbench.action.terminal.split",
+    "when": "terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "",
+    "command": "-workbench.action.terminal.split",
+    "when": "terminalFocus && terminalProcessSupported"
+  },
+  // View: Split Editor
+  {
+    // `Ctrl` + `Shift` + `/`
+    "key": "ctrl+shift+oem_7",
+    "command": "workbench.action.splitEditor",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "",
+    "command": "-workbench.action.splitEditor",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  // View: Split Editor Orthogonal
+  {
+    // `Ctrl` + `Shift` + `-`
+    "key": "ctrl+shift+oem_minus",
+    "command": "workbench.action.splitEditorOrthogonal",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "",
+    "command": "-workbench.action.splitEditorOrthogonal",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  // View: Toggle Terminal
+  {
+    // `Ctrl` + `Shift` + `T`
+    "key": "ctrl+shift+t",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
+  },
+  {
+    "key": "",
+    "command": "-workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
+  }
+]

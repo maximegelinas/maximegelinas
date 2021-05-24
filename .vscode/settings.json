@@ -1,0 +1,293 @@
+{
+  // # Text Editor
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.lineNumbers": "relative",
+  "editor.linkedEditing": true,
+  "editor.matchBrackets": "never",
+  "editor.renderWhitespace": "boundary",
+  "editor.rulers": [120],
+  // ## Font
+  "editor.fontFamily": "'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace, 'Segoe UI Emoji'",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 13,
+  "editor.fontWeight": "500",
+  // ## Formatting
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  // ## Diff Editor
+  "diffEditor.renderSideBySide": false,
+  // ## Minimap
+  "editor.minimap.enabled": false,
+  // ## Suggestions
+  "editor.acceptSuggestionOnEnter": "smart",
+  "editor.suggest.insertMode": "replace",
+  "editor.suggestSelection": "first",
+  // ## Files
+  "files.autoSave": "off",
+  "files.defaultLanguage": "typescript",
+  // # Workbench
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.sideBar.location": "right",
+  "explorer.autoReveal": false,
+  "explorer.compactFolders": false,
+  // ## Search
+  "search.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/package-lock.json": true,
+    "**/yarn.lock": true
+  },
+  // # Extensions
+  // ## Angular Language Service
+  "angular.experimental-ivy": true,
+  // ## Bracket Pair Colorizer 2
+  "bracket-pair-colorizer-2.colors": ["#C586C0", "#C8C8C8", "#DCDCAA", "#9CDCFE", "#4EC9B0", "#569CD6"],
+  "bracket-pair-colorizer-2.highlightActiveScope": true,
+  "bracket-pair-colorizer-2.activeScopeCSS": [
+    "borderStyle : solid",
+    "borderWidth : 4px",
+    "borderColor : {color}",
+    "opacity: 0.2"
+  ],
+  "bracket-pair-colorizer-2.showBracketsInGutter": true,
+  "bracket-pair-colorizer-2.excludedLanguages": ["html"],
+  // ## Emmet
+  "emmet.triggerExpansionOnTab": true,
+  // ## Git
+  "git.autofetch": true,
+  "git.autoStash": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  // ## Git Graph
+  "git-graph.dialog.createBranch.checkOut": true,
+  // ## GitLens
+  "gitlens.keymap": "none",
+  // ## Material Icons
+  "material-icon-theme.activeIconPack": "angular_ngrx",
+  "material-icon-theme.files.associations": {
+    ".artifactignore": "azure",
+    "angular.json": "angular",
+    "azuredeploy.json": "azure",
+    "environment.test.ts": "typescript",
+    "jest-setup.ts": "jest",
+    "jest-setup.e2e.ts": "jest",
+    "jest-setup.spec.ts": "jest",
+    "jest.config.base.js": "jest",
+    "jest.config.e2e.js": "jest",
+    "jest.config.lib.js": "jest",
+    "jest.config.spec.js": "jest",
+    "ngcc.config.js": "angular",
+    "ormconfig.json": "database",
+    "test-setup.ts": "test-ts",
+    "webpack.ci.js": "webpack",
+    "webpack.config.ci.js": "webpack",
+    "*.container.ts": "angular-component",
+    "*.paths.ts": "routing",
+    "*.routes.ts": "routing",
+    "*.urls.ts": "routing"
+  },
+  "material-icon-theme.folders.associations": {
+    "api-client": "client",
+    "authz": "secure",
+    "chrome_extensions": "plugin",
+    "domain": "cluster",
+    "e2e": "test",
+    "endpoints": "global",
+    "factories": "functions",
+    "features": "components",
+    "fixtures": "resource",
+    "health": "rules",
+    "integration": "test",
+    "sso": "secure",
+    "static": "content",
+    "store": "ngrx-store",
+    "support": "utils",
+    "web-bff": "server",
+    "web-e2e": "test",
+    "web-home": "public",
+    "web-portal": "public",
+    "web-portal-bff": "server",
+    "web-portal-e2e": "test"
+  },
+  // ## Merge Conflict
+  "merge-conflict.autoNavigateNextConflict.enabled": true,
+  // ## Prettier
+  "prettier.printWidth": 120,
+  "prettier.singleQuote": true,
+  "prettier.resolveGlobalModules": true,
+  "prettier.trailingComma": "all",
+  // ## TabNine
+  "tabnine.experimentalAutoImports": true,
+  // ## TODO Highlight
+  "todohighlight.keywords": [
+    {
+      "text": "TODO:",
+      "color": "black",
+      "backgroundColor": "#9CDCFE",
+      "overviewRulerColor": "#9CDCFE"
+    },
+    {
+      "text": "FIXME:",
+      "color": "black",
+      "backgroundColor": "#C586C0",
+      "overviewRulerColor": "#C586C0"
+    },
+    {
+      "text": "NOTE:",
+      "backgroundColor": "#5ECEB7",
+      "overviewRulerColor": "#5ECEB7"
+    },
+    {
+      "text": "HACK:",
+      "backgroundColor": "#DCDCAA",
+      "overviewRulerColor": "#DCDCAA"
+    },
+    {
+      "text": "```",
+      "color": "#474747",
+      "backgroundColor": "transparent",
+      "overviewRulerColor": "transparent",
+      "isWholeLine": true
+    }
+  ],
+  "todohighlight.defaultStyle": {
+    "color": "black"
+  },
+  // ## Typescript
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  // ## Vim
+  "vim.useCtrlKeys": false,
+  "vim.useSystemClipboard": true,
+  "vim.startInInsertMode": false,
+  "vim.camelCaseMotion.enable": true,
+  "vim.easymotion": false,
+  "vim.hlsearch": true,
+  "vim.incsearch": true,
+  "vim.sneak": true,
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "vim.insertModeKeyBindings": [],
+  "vim.insertModeKeyBindingsNonRecursive": [],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["n"],
+      "after": ["<down>"]
+    },
+    {
+      "before": ["e"],
+      "after": ["<up>"]
+    },
+    {
+      "before": ["i"],
+      "after": ["<right>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    // Insert before the cursor.
+    {
+      "before": ["u"],
+      "after": ["i"]
+    },
+    // Insert at the beginning of the line.
+    {
+      "before": ["U"],
+      "after": ["I"]
+    },
+    // Undo.
+    {
+      "before": ["l"],
+      "after": ["u"]
+    },
+    // Restore (undo) last changed line.
+    {
+      "before": ["L"],
+      "after": ["U"]
+    },
+    // Join line bellow.
+    {
+      "before": ["N"],
+      "after": ["J"]
+    },
+    // Move to bottom of screen.
+    {
+      "before": ["I"],
+      "after": ["L"]
+    },
+    // Jump forwards to the end of a word.
+    {
+      "before": ["j"],
+      "after": ["e"]
+    },
+    // Jump forwards to the end of a word (words can contain punctuation).
+    {
+      "before": ["J"],
+      "after": ["E"]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": ["n"],
+      "after": ["<down>"]
+    },
+    {
+      "before": ["e"],
+      "after": ["<up>"]
+    },
+    {
+      "before": ["i"],
+      "after": ["<right>"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    // Insert before the cursor.
+    {
+      "before": ["u"],
+      "after": ["i"]
+    },
+    // Insert at the beginning of the line.
+    {
+      "before": ["U"],
+      "after": ["I"]
+    },
+    // Undo.
+    {
+      "before": ["l"],
+      "after": ["u"]
+    },
+    // Restore (undo) last changed line.
+    {
+      "before": ["L"],
+      "after": ["U"]
+    },
+    // Join line bellow.
+    {
+      "before": ["N"],
+      "after": ["J"]
+    },
+    // Move to bottom of screen.
+    {
+      "before": ["I"],
+      "after": ["L"]
+    },
+    // Jump forwards to the end of a word.
+    {
+      "before": ["j"],
+      "after": ["e"]
+    },
+    // Jump forwards to the end of a word (words can contain punctuation).
+    {
+      "before": ["J"],
+      "after": ["E"]
+    }
+  ],
+  "terminal.integrated.tabs.enabled": true
+}
